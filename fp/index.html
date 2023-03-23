@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <title>Shackles Coffee Review</title>
+     <meta name="robots" content="noindex,nofollow" >
+     <meta name="viewport" content="width=device-width" />
+     <meta charset="utf-8" />
+     <link rel="stylesheet" href="css/main.css" />
+     <link rel="stylesheet" href="css/nav.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+   </head>
+   <body>
+       <header>
+        <h1>
+          <a href="shacklescoffeereview.com">shacklescoffeereview.com</a>
+        </h1>
+       <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Me</a> 
+        <a href="schedule.html">Stream Schedule</a> 
+        <a href="videos.html">Videos</a>
+        <a href="chat.html">Chat</a>
+        <a href="contact.php">Contact Shackles</a>
+       </nav>
+       </header>
+
+     <div class="wrapper">
+
+      <div>
+        <img class="desktop" src="images/Shackles.png" alt="photo of shackles vtuber model" />
+
+        <img class="tablet" src="images/Shackles.png" alt="photo of shackles vtuber model" />
+
+        <img class="phone" src="images/shacklessmall.png" alt="photo of shackles vtuber model" />
+        <h2>Welcome</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Lorem dolor sed viverra ipsum nunc. Nec nam</p><p> aliquam sem et tortor consequat id. Euismod in pellentesque massa placerat duis ultricies lacus. Volutpat ac tincidunt vitae semper. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. At elementum eu facilisis sed. Lectus arcu .</p>
+      </div>
+        <footer>
+            <div class="social-container">
+                <div><a href="#" class="fa fa-facebook"></a></div>
+                <div><a href="#" class="fa fa-twitter"></a></div>
+                <div><a href="#" class="fa fa-youtube"></a></div>
+                <div><a href="#" class="fa fa-instagram"></a></div>
+            </div>
+            
+            <p><small>&copy; 2023 by 
+                <a href="contact.php">Shackles</a>, All Rights Reserved ~ 
+                <a id="html-checker" href="#">Check HTML</a> ~ 
+                <a id="css-checker" href="#">Check CSS</a></small>
+            </p>  
+            
+            <a href="readme.txt">Disclaimer</a>
+        </footer>
+     </div>  
+
+     <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+     <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+      
+    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+     </script>
+
+   </body>
+   </html>
